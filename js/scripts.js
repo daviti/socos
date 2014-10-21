@@ -271,7 +271,7 @@ $(window).load(function() {
 });
 $(window).scroll(function () {
     $('[id^="box1"]').each(function () {
-        if (($(this).offset().top - $(window).scrollTop())  <150) {
+        if (($(this).offset().top - $(window).scrollTop())  <240) {
             $(this).stop().fadeTo(100, 0);
         } else {
             $(this).stop().fadeTo('fast', 10);
