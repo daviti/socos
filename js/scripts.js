@@ -274,7 +274,7 @@ $(window).scroll(function () {
         if (($(this).offset().top - $(window).scrollTop())  <240) {
             $(this).stop().fadeTo(100, 0);
         } else {
-            $(this).stop().fadeTo('fast', 10);
+            $(this).stop().fadeTo('fast', 40);
         }
     });
 });
