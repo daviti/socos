@@ -265,7 +265,7 @@ figure.fixedratio_h1 {
     background-attachment: fixed;
 }
 figure.fixedratio_h2 {
-    padding-top: 25.538623226484498160798738833421%;
+    padding-top: 37.309511297950604308985811875985%;
     display: block;
     margin: 0;
     background-image: url(images/header-2.jpg);
@@ -273,6 +273,7 @@ figure.fixedratio_h2 {
     position: relative;
     background-size: cover;
     -moz-background-size: cover;
+    background-attachment: fixed;
 }
 figure.fixedratio_h3 {
     padding-top: 37.309511297950604308985811875985%;
@@ -283,6 +284,7 @@ figure.fixedratio_h3 {
     position: relative;
     background-size: cover;
     -moz-background-size: cover;
+     background-attachment: fixed;
 }
 
 /* ------------------ END BANNER STYLING ------------------ */
