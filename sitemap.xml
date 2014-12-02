@@ -1,6 +1,27 @@
-<?xmal version="1.0" encoding="UTF-8"?>
-<urlset xmls="http://wwww.sitemaps.org/schemas/sitemap/0/9">
-  <url>
-    <loc>http://www.socoslearning.com</loc>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+
+    <loc>http://www.socoslearning.com/about.html</loc> 
+    <image:image>
+       <image:loc>http://www.socoslearning.com/img/SXSWedu_Vivienne_Norma_Ming.jpg</image:loc> 
+    </image:image>
+
+    <video:video>     
+      <video:content_loc>
+        http://www.socoslearning.com
+      </video:content_loc>
+      <video:player_loc allow_embed="yes" autoplay="ap=1">
+        http://vimeo.com/api/v2
+      </video:player_loc>
+      <video:thumbnail_loc>
+        http://www.socoslearning.com/img/SXSWedu_Vivienne_Norma_Ming.jpg
+      </video:thumbnail_loc>
+      <video:title>"Vivienne Ming, PhD and Norma Ming, PhD at SXSW Edu 2014"</video:title>  
+      <video:description>
+		Keeping the Promise of Educational Technology
+      </video:description>
+    </video:video>
+
   </url>
 </urlset>
