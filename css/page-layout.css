@@ -491,7 +491,7 @@ a.btn_linkedin:hover {
     font-weight: 600;
 }
 .app_available_widget img {
-    margin-bottom: 32px;
+    margin-bottom: -10px;
 }
 .wrapper_content {
     margin-bottom:50px;
