@@ -495,9 +495,9 @@
 
 
 					<div class="row-fluid subscribe">
-						<form action="post" id="emailSubscribeForm" name="emailSubscribeForm">
+						<form action="mail.php" method="POST">
 						<div class="span4">
-							<input type="text" placeholder="Email Address" class="span12" name="email_subscribe" id="email_subscribe" />
+							<input type="text" placeholder="Email Address" class="span12" name="email" id="email" />
 						</div>
 						<div class="span2">
 					
@@ -1088,7 +1088,7 @@
 								<p class="italic">
 									 Front End Web Developer Intern
 								</p>
-David works with Balsamiq, HTML 5, CSS3, Parallax, Twitter-Bootstrap, WordPress, PhP, JavaScript, JQuery, MySQL, Google Cloud Platform & Git/GitHub. David loves to learn, and to stay current with the new economy, he has completed a Web Development boot camp at Coding Dojo. David received a B.A. from Cal State San Marcos (CSUSM) in Visual and Performing Arts and Technology. While at CSUSM,  David studied Japanese language and then immersed himself in Japanese culture, specifically Sumi-e painting and Japanese cinema (1949-1987) at Kansai Gaidai University in Hirakata City, Japan.
+									David works with Balsamiq, HTML 5, CSS3, Parallax, Twitter-Bootstrap, WordPress, PhP, JavaScript, JQuery, MySQL, Google Cloud Platform & Git/GitHub. David loves to learn, and to stay current with the new economy, he has completed a Web Development boot camp at Coding Dojo. David received a B.A. from Cal State San Marcos (CSUSM) in Visual and Performing Arts and Technology. While at CSUSM,  David studied Japanese language and then immersed himself in Japanese culture, specifically Sumi-e painting and Japanese cinema (1949-1987) at Kansai Gaidai University in Hirakata City, Japan.
 								<br><br>
 										<ul class="social_links">
 									<li><a href="http://www.davidortizcaro.com" data-toggle="tooltip" class="tooltip_top" data-placement="top" data-original-title="Website"><i class="icon-globe"></i></a></li>
@@ -1150,15 +1150,13 @@ David works with Balsamiq, HTML 5, CSS3, Parallax, Twitter-Bootstrap, WordPress,
 
 											
 										<div class="form_container">
-												<form id="contactForm" name="contactForm">
-													<ul class="form_fields">
-														<li><input placeholder="Name" class="span12" name="contact_name" id="contact_name" type="text"/></li>
-														<li><input placeholder="Email" class="span12" name="contact_email" id="contact_email" type="text"/></li>
-														<li><input placeholder="Subject" class="span12" name="contact_subject" id="contact_subject" type="text"/></li>
-														<li><textarea placeholder="Message" class="span12" name="contact_message" id="contact_message" cols="30" rows="5"></textarea></li>
-													</ul>
-													<button id="btnSendRequest" class="btn btn_custom_1">SUBMIT</button><span id="request_results"></span>
-												</form>
+												<form action="mail.php" method="POST">
+											<p>Name</p> <input type="text" class="span12" name="name">
+											<p>Email</p> <input type="text" class="span12" name="email">
+											<p>Message</p><textarea name="message" class="span12" rows="6" cols="25"></textarea><br />
+											<button type="submit" class="span3 btn btn_custom_1" id="btnEmailSubscribe" name="btnEmailSubscribe">Register</button>
+											</form>
+												
 											</div>
 											</div>
 

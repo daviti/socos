@@ -158,7 +158,7 @@ $(document).ready(function($) {
 		},
 		scrollOffset: 0
 	});
-$('.fixedratio_h2').parallax("50%", 0.2);
+$('.fixedratio_h2').parallax("50%", 0.1);
 	$('#navigation').onePageNav({
 		begin: function() {
 		},
