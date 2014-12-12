@@ -1,4 +1,4 @@
-View File View Project Download Project ZIP
+
 <?php
 /**
  * Copyright 2012 Google Inc.
@@ -32,10 +32,11 @@ session_start();
  * oauth2_redirect_uri.
  */
 $client = new Google_Client();
-$client->setApplicationName("Google Cloud Storage PHP Starter Application");
+$client->setApplicationName("socos-learning");
 $client->setClientId('225645152209-f7lkh5vn1ehgtv662pbac6oqg497d8nd.apps.googleusercontent.com');
 $client->setClientSecret('tLyLzj_lamG8w-C-fQEoIu_Q');
-$client->setRedirectUri('urn:ietf:wg:oauth:2.0:oob
+$client->setRedirectUri(' 
+urn:ietf:wg:oauth:2.0:oob
 http://localhost');
 $client->setDeveloperKey('AIzaSyDKeTcW2ompCA8sZBvKHUVUyh86Ico28G0');
 $client->setScopes('https://www.googleapis.com/auth/devstorage.full_control');
