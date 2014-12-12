@@ -33,10 +33,11 @@ session_start();
  */
 $client = new Google_Client();
 $client->setApplicationName("Google Cloud Storage PHP Starter Application");
-$client->setClientId('YOUR_CLIENT_ID');
-$client->setClientSecret('YOUR_CLIENT_SECRET');
-$client->setRedirectUri('YOUR_REDIRECT_URI');
-$client->setDeveloperKey('YOUR_API_KEY');
+$client->setClientId('225645152209-f7lkh5vn1ehgtv662pbac6oqg497d8nd.apps.googleusercontent.com');
+$client->setClientSecret('tLyLzj_lamG8w-C-fQEoIu_Q');
+$client->setRedirectUri('urn:ietf:wg:oauth:2.0:oob
+http://localhost');
+$client->setDeveloperKey('AIzaSyDKeTcW2ompCA8sZBvKHUVUyh86Ico28G0');
 $client->setScopes('https://www.googleapis.com/auth/devstorage.full_control');
 $storageService = new Google_StorageService($client);
 
@@ -44,9 +45,9 @@ $storageService = new Google_StorageService($client);
  * Constants for sample request parameters.
  */
 define('API_VERSION', 'v1');
-define('DEFAULT_PROJECT', 'YOUR_DEFAULT_PROJECT_ID');
-define('DEFAULT_BUCKET', 'YOUR_DEFAULT_BUCKET_NAME');
-define('DEFAULT_OBJECT', 'YOUR_DEFAULT_OBJECT_NAME');
+define('DEFAULT_PROJECT', 'socos-website');
+define('DEFAULT_BUCKET', 'www.socoslearning.com');
+define('DEFAULT_OBJECT', 'Socos Website');
 
 /**
  * Generates the markup for a specific Google Cloud Storage API request.
