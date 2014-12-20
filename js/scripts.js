@@ -141,7 +141,7 @@ $(document).ready(function($) {
 		}
 	}
 
-	$('.fixedratio_h1').parallax("50%", 0.3);
+	$('.fixedratio_h1').parallax("50%", 0.2);
 	$('#navigation').onePageNav({
 		begin: function() {
 		},
@@ -150,7 +150,7 @@ $(document).ready(function($) {
 		scrollOffset: 0
 	});
 	
-	$('.fixedratio_h3').parallax("50%", 0.2);
+	$('.fixedratio_h2').parallax("50%", 0.2);
 	$('#navigation').onePageNav({
 		begin: function() {
 		},
@@ -158,7 +158,7 @@ $(document).ready(function($) {
 		},
 		scrollOffset: 0
 	});
-$('.fixedratio_h2').parallax("50%", 0.1);
+$('.fixedratio_h3').parallax("50%", 0.2);
 	$('#navigation').onePageNav({
 		begin: function() {
 		},
@@ -166,6 +166,7 @@ $('.fixedratio_h2').parallax("50%", 0.1);
 		},
 		scrollOffset: 0
 	});
+
 	$('#youtube').bind('click', function(e) {
 		e.preventDefault();
 		Fresco.show(['http://vimeo.com/88221887']);
