@@ -287,6 +287,18 @@ figure.fixedratio_h3 {
     -moz-background-size: cover;
      background-attachment: fixed;
 }
+figure.fixedratio_h4 {
+    padding-top: 55%;
+    display: block;
+    margin: 0;
+    background-image: url(images/header-1.jpg);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+
+}
 
 /* ------------------ END BANNER STYLING ------------------ */
 
@@ -939,6 +951,7 @@ hr {
     }
     .row > .span2 {
         width: 270px;
+        height: 130px;
     }
     .row > .span1 {
         width: 70px;
@@ -1213,7 +1226,7 @@ hr {
     figure.fixedratio_h1, figure.fixedratio_h2, figure.fixedratio_h3 {
         padding: 75% 0;
     };
-    
+   
     
     
 }
