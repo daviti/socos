@@ -1,0 +1,14 @@
+Socos Homepage
+==============
+
+This is all of the code needed to deploy the Socos homepage, currently at www.socoslearning.com.
+
+Copywrite
+------------
+
+Socos LLC 2014 All rights reserved
+
+To Do
+-------
+
+* Convert from pure static to GAE
